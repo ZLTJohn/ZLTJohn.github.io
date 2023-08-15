@@ -1,70 +1,58 @@
+Hey! I am Liangtao Zheng. I'm an graduate student (expected to graduate in 2024) from Dept of [Computer Science and Engineering](https://cse.ucsd.edu/), University of California, San Diego. Prior to that, I received my B.Eng. in Cyberspace Security from Wuhan University. Currently, I am a research intern at [MARS Lab](http://group.iiis.tsinghua.edu.cn/~marslab/#/) in [IIIS](https://iiis.tsinghua.edu.cn/en/), Tsinghua University, advised by [Prof. Hang Zhao.](https://hangzhaomit.github.io/). I am also also fortunate to collaborate with [Prof. Yue Wang](https://yuewang.xyz/). 
+
+I am especially interested in 3D vision and autonomous driving. I am also experienced in algorithm designing, winning 4 silver medals in the ACM-ICPC Regional.
+
 # Education
-I'm an undergraduate student (expected to graduate in 2023) from Department of Computer Science and Engineering, Shanghai Jiao Tong University.
 
-For my academic performance:
-- GPA: 94.10/100 (or 4.12/4.3), Rank 1/120
-- Achieved A+ in more than 30 Courses.
-<details>
-<summary>Click to expand</summary>
-<ul>
-<li>(100/100) CS241: Principles and Practice of Problem Solving (Fall 2020) <a href="https://github.com/Emiyalzn/Ride-Hailing-DataAnalyzer">[Project+Report]</a></li>
-<li>(100/100) CS356: Operating System Projects (Spring 2021) <a href="https://github.com/Emiyalzn/CS356-Prj2-LinuxScheduler">[Project]</a></li>
-<li>(100/100) CS145: Computer Architecture Experiments (Spring 2021)</li> 
-<li>(100/100) PH070/PH071: College Physics(Honor) (Spring 2020/Fall 2020)</li>
-<li>(99/100) CS420: Machine Learning (Spring 2022) <a href="https://github.com/Emiyalzn/CS420-Sketch-Recognition">[Project]</a></li>
-<li>(98/100) CS158: Data Structure(Honor) (Spring 2020)</li>
-<li>(97/100) CS307: Operating System (Spring 2021)</li>
-<li>(96/100) CS359: Computer Architecture (Spring 2021)</li>
-<li>(96/100) CS339: Computer Networks (Fall 2021) <a href="https://github.com/Emiyalzn/CS339-Project">[Project]</a></li>
-<li>(95/100) SE2321: Web Application Development (Spring 2021) <a href="https://github.com/Emiyalzn/Online-Bookstore">[Project]</a></li>
-<li>(95/100) MA267: Mathematical Analysis(Honor) (Fall 2019)</li>
-<li>(95/100) MA271: Linear Algebra(Honor) (Fall 2019)</li>
-<li>... and 18 more</li>
-</ul>
-</details>
+For my academic performance in Wuhan University:
+- GPA: 3.94/4.00, Rank **1/114**
 
-# Research Experience
-Previously, I did research at [Thinklab](https://thinklab.sjtu.edu.cn) under the supervision of [Prof. Junchi Yan](https://scholar.google.com/citations?user=ga230VoAAAAJ&hl=en), where I got an introduction to research. Currently, I'm an incoming PhD at [MARS Lab](http://group.iiis.tsinghua.edu.cn/~marslab/#/) in Tsinghua University, supervised by [Prof. Hang Zhao](https://hangzhaomit.github.io/).
+Selected courses:
+- Data Structure (98)
+- Advanced Mathematics (96)
+-	Probability Theory and Statistics (99)	
 
-For my research interests, I am broadly interested in various research topics in machine learning, including representation learning, reinforcement learning, trustworthy AI, etc. In particular, my current research focus on **Autonomous Driving**, developing RL/IL frameworks for eligant motion planning. For some of my previous experience:
-- ROCO: A General Framework for Evaluating Robustness of Combinatorial Optimization Solvers on Graphs 
-  
-  Han Lu\*, **Zenan Li\***, Runzhong Wang, Qibing Ren, Xijun Li, Mingxuan Yuan, Jia Zeng, Xiaokang Yang, Junchi Yan (\* denotes equal contribution)
-  
-  *International Conference on Learning Representations* (**ICLR 2023**)
 
-- Towards Debiased Learning and Out-of-Distribution Detection for Graph Data
+# Projects
 
-  **Zenan Li**, Qitian Wu, Fan Nie, Junchi Yan
+**Project 1:** Large-scale 3D Visual Localization (MegSLAM) for Mobile Client
+*MEGVII (Face++) Beijing Research Institute, China*
+- Independently developed a localization algorithm for iOS and Android in C++, used in the Winter Olympic Games.
+- Successfully optimized modules, achieving 2x speed up for overall performance and 75% reduction in database size.
+- Applied SLAM algorithms like RANSAC, exploited toolchains and portable libraries like ONNX for cross-compiling.
 
-  *Advances in Neural Information Processing Systems* (**NeurIPS 2022**)
+#### Project 2: Waymo 2022 3D-camera-only-detection Challenge
+*MARS Lab @ IIIS, Tsinghua University, Beijing, China*\
+**Advisor:** *Prof. Hang Zhao*
+- Built entire deep learning training workflow and performed supervise learning with state-of-the-art 3D detectors. Fine-tuned the models and obtained an average precision of 63%. Optimized the evaluator to speed up evaluation.
+- Provided detailed code annotations and my method to the MMDET3D community on GitHub (3000+ stars).
+- Authored a tutorial to analyze the terabyte-scale dataset, filling an official tutorial gap and receiving 60+ likes.
 
-- Towards Scalable (All-Pair) Message Passing for Node Classification beyond Explicit Topology
+#### Project 3: Cross-dataset Sensor Alignment: Making Visual 3D Object Detector Generalize (under review in CoRL2023)
+*MARS Lab @ IIIS, Tsinghua University, Beijing, China*\
+**Advisor:** *Prof. Hang Zhao*
+- Independently led the project, executing all coding, result analysis, and academic paper composition.
+- Trained and tested models under over 700+ different settings to investigate 7 factors that cause camera-based 3D detector fails to generalize on different datasets, which improved the precision by 25%+ on all datasets.
+- Learned and processed 8 large autonomous driving datasets into a unified dataset containing 470,000 frames.
+- Led regular meetings and sought timely advice from experienced co-authors to ensure smooth project progression.
 
-  Qitian Wu, **Zenan Li\***, Wentao Zhao\*, David Wipf, Junchi Yan (\* denotes equal contribution)
 
-  *Advances in Neural Information Processing Systems* (**NeurIPS 2022 Spotlight**)
+# Other Experiment
+**Student Tutor (part-time)**, Jun. 2019 - Jan. 2021
+- Taught advanced algorithms and data structures such as dynamic programming to middle school students.
+- Enhanced student understanding and confidence through the fusion of abstract concepts and detailed examples.
 
-- On Collective Robustness of Bagging Against Data Poisoning 
-
-  Ruoxin Chen, **Zenan Li**, Jie Li, Chentao Wu, Junchi Yan
-
-  *International Conference on Machine Learning* (**ICML 2022**)
 
 # Selected Awards
-- Rongchang Scholarship (2022)
-- Sensetime Fellowship (only 30 from national-wide, 2021)
-- Lixin Tang Scholarship (2020)
-- Huawei Fellowship (2021)
-- Zhiyuan Honor Scholarship (2021)
-- The first prize in the Chinese Mathematics Competitions (Rank 5 in Shanghai, 2020)
+
+- **2020 National Scholarship of China** (0.2% nationwide)\
+- 2021 Luoge-Tianyou Scholarship of Wuhan University (5 undergrad per year)
+- Two First-class Scholarships of Wuhan University (5% school-wide)
 
 # Skills
-**Languages**: Python, C/C++, JavaScript, Java, Rust.
-
-**Technical Skills**: 
-- React (frontend), SpringBoot (backend), Qt (software), MySQL (database).
-- PyTorch (proficient), TensorFlow (able to read).
-
-# Academic Service
-I served as a reviewer in ICML'22 and LoG'22.
+- Proficient in abstract algorithm designing.
+- Programming languages: C++, Python
+- Technical Skills: Pytorch
+- 1st place in the 100m sprint in my major.
+- Native languages: Cantonese & Chinese
+- English: Full professional proficiency, with TOEFL overall 104/120
